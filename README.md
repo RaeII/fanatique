@@ -1,59 +1,59 @@
 <div align="center">
   <img src="./frontend/public/logo-header.png" alt="Fanatique" width="200"/>
-  <p>Acess: 🔗<span style="font-size: 4em;"><a href="http://144.126.217.221:4173//" target="_blank">FANATIQUE APP</a></span></p>
+  <p>Access: 🔗<span style="font-size: 4em;"><a href="http://144.126.217.221:4173//" target="_blank">FANATIQUE APP</a></span></p>
   <h3>Gamify your Fan Token staking with strategic bets and exclusive rewards.</h3>
 </div>
 
-## 📱 Sobre
+## 📱 About
 
-Fanatique é uma plataforma de staking gamificada construída na **Chiliz Chain**, projetada especificamente para fãs de esportes. Os usuários fazem stake de seus Fan Tokens, ganham recompensas e recebem **$CHIPS** (nossa moeda interna), que podem ser usados para apostar estrategicamente em eventos esportivos.
+Fanatique is a gamified staking platform built on the **Chiliz Chain**, specifically designed for sports fans. Users stake their Fan Tokens, earn rewards, and receive **$CHIPS** (our internal currency), which can be used to strategically bet on sporting events.
 
-Cada aposta é uma batalha tática onde os jogadores usam **cartas NFT exclusivas** com habilidades únicas como buffs para multiplicar recompensas, defesas para proteger apostas e modificadores que podem alterar completamente o curso das previsões. Ao vencer apostas, os usuários ganham prêmios reais e acumulam **$REP**, um sistema de reputação não-transferível que desbloqueia novas conquistas e acesso a cartas ainda mais raras e poderosas.
+Each bet is a tactical battle where players use **exclusive NFT cards** with unique abilities such as buffs to multiply rewards, defenses to protect bets, and modifiers that can completely alter the course of predictions. By winning bets, users earn real prizes and accumulate **$REP**, a non-transferable reputation system that unlocks new achievements and access to even rarer and more powerful cards.
 
-### Principais recursos
+### Key Features
 
-- **Staking de Fan Tokens**: Faça stake e ganhe $CHIPS para apostar
-- **Sistema de Cartas NFT**: Use cartas estratégicas com habilidades únicas em suas apostas
-- **Apostas P2P**: Crie torneios personalizados e aposte contra outros usuários
-- **Odds Oficiais**: Participe de apostas oficiais com prêmios reais (Fan Tokens, NFTs, $CHZ)
-- **Sistema de Reputação**: Acumule $REP para desbloquear conquistas e rankings
-- **Integração Discord**: Gerencie torneios e receba notificações diretamente no Discord
+- **Fan Token Staking**: Stake and earn $CHIPS to bet
+- **NFT Card System**: Use strategic cards with unique abilities in your bets
+- **P2P Betting**: Create custom tournaments and bet against other users
+- **Official Odds**: Participate in official bets with real prizes (Fan Tokens, NFTs, $CHZ)
+- **Reputation System**: Accumulate $REP to unlock achievements and rankings
+- **Discord Integration**: Manage tournaments and receive notifications directly on Discord
 
-## 🔧 Tecnologia
+## 🔧 Technology
 
-### **Stack Tecnológico Avançado**
+### **Advanced Technology Stack**
 
 #### **Frontend (React + Web3)**
-- **React 19** com Vite para desenvolvimento ultra-rápido e HMR otimizado
-- **Wagmi v2** + **Viem** para interações Web3 type-safe e performáticas
-- **Ethers.js v6** para comunicação direta com smart contracts
-- **TailwindCSS** com sistema de design customizado e tema dark/light
-- **Framer Motion** para animações suaves e transições cinematográficas
-- **React Three Fiber** para renderização 3D de NFTs e efeitos visuais
-- **i18next** para internacionalização completa (PT-BR/EN)
-- **React Hot Toast** para notificações em tempo real
-- **Radix UI** para componentes acessíveis e primitivos de alta qualidade
+- **React 19** with Vite for ultra-fast development and optimized HMR
+- **Wagmi v2** + **Viem** for type-safe and performant Web3 interactions
+- **Ethers.js v6** for direct communication with smart contracts
+- **TailwindCSS** with custom design system and dark/light theme
+- **Framer Motion** for smooth animations and cinematic transitions
+- **React Three Fiber** for 3D rendering of NFTs and visual effects
+- **i18next** for complete internationalization (PT-BR/EN)
+- **React Hot Toast** for real-time notifications
+- **Radix UI** for accessible components and high-quality primitives
 
 #### **Backend (Node.js + Blockchain)**
-- **TypeScript** com paths mapeados e tipagem estrita
-- **Express.js** com middleware de validação e autenticação JWT
-- **Hardhat** para desenvolvimento, teste e deploy de smart contracts
-- **TypeChain** para tipagem automática de contratos Solidity
-- **MySQL2** para persistência de dados off-chain otimizada
-- **Winston** para logging estruturado e monitoramento
-- **Ethers.js v6** para interações blockchain server-side
-- **OpenZeppelin Contracts** para padrões de segurança auditados
+- **TypeScript** with mapped paths and strict typing
+- **Express.js** with validation middleware and JWT authentication
+- **Hardhat** for smart contract development, testing, and deployment
+- **TypeChain** for automatic typing of Solidity contracts
+- **MySQL2** for optimized off-chain data persistence
+- **Winston** for structured logging and monitoring
+- **Ethers.js v6** for server-side blockchain interactions
+- **OpenZeppelin Contracts** for audited security standards
 
 #### **Blockchain & Smart Contracts**
-- **Solidity 0.8.24** com otimizações IR habilitadas
-- **Chiliz Chain (Mainnet)** - EVM compatível com gas otimizado
-- **Chiliz Spicy (Testnet)** para desenvolvimento e testes
-- **OpenZeppelin** para padrões ERC-20, ERC-721 e segurança
-- **Hardhat Gas Reporter** para otimização de custos de transação
+- **Solidity 0.8.24** with IR optimizations enabled
+- **Chiliz Chain (Mainnet)** - EVM compatible with optimized gas
+- **Chiliz Spicy (Testnet)** for development and testing
+- **OpenZeppelin** for ERC-20, ERC-721 standards and security
+- **Hardhat Gas Reporter** for transaction cost optimization
 
-## 🏗️ Arquitetura Técnica
+## 🏗️ Technical Architecture
 
-### **Arquitetura Híbrida Web2/Web3**
+### **Hybrid Web2/Web3 Architecture**
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -70,37 +70,37 @@ Cada aposta é uma batalha tática onde os jogadores usam **cartas NFT exclusiva
 
 ### **Smart Contracts Ecosystem**
 
-- **Fanatique.sol**: Contrato principal para staking e governança
-- **FanatiqueCards.sol**: Sistema NFT para cartas estratégicas com raridade
-- **FanToken.sol**: Interface para tokens de clubes esportivos
-- **Fan.sol**: Implementação de token utilitário $CHIPS
-- **ERC20 Stablecoins**: Suporte para BRZ, USDC, EURC
+- **Fanatique.sol**: Main contract for staking and governance
+- **FanatiqueCards.sol**: NFT system for strategic cards with rarity
+- **FanToken.sol**: Interface for sports club tokens
+- **Fan.sol**: $CHIPS utility token implementation
+- **ERC20 Stablecoins**: Support for BRZ, USDC, EURC
 
-### **Otimizações de Performance**
+### **Performance Optimizations**
 
 #### **Frontend**
-- **Code Splitting** automático com Vite
-- **Tree Shaking** para bundles otimizados
-- **Lazy Loading** de componentes e rotas
-- **Service Workers** para cache inteligente
-- **WebGL** para renderização 3D otimizada
+- **Code Splitting** automatic with Vite
+- **Tree Shaking** for optimized bundles
+- **Lazy Loading** of components and routes
+- **Service Workers** for smart caching
+- **WebGL** for optimized 3D rendering
 
 #### **Backend**
-- **Connection Pooling** MySQL otimizado
-- **JWT Stateless** para escalabilidade horizontal
-- **Middleware de Cache** para dados frequentes
-- **Rate Limiting** para proteção contra spam
-- **Compression** gzip para responses otimizadas
+- **Connection Pooling** optimized MySQL
+- **JWT Stateless** for horizontal scalability
+- **Cache Middleware** for frequent data
+- **Rate Limiting** for spam protection
+- **Compression** gzip for optimized responses
 
 #### **Blockchain**
-- **Gas Optimization** com Solidity IR
-- **Batch Transactions** para operações múltiplas
-- **Event Indexing** para queries eficientes
-- **Proxy Patterns** para upgrades de contratos
+- **Gas Optimization** with Solidity IR
+- **Batch Transactions** for multiple operations
+- **Event Indexing** for efficient queries
+- **Proxy Patterns** for contract upgrades
 
-## 🔗 Contratos (Mainnet)
+## 🔗 Contracts (Mainnet)
 
-| Contrato | Endereço |
+| Contract | Address |
 |----------|----------|
 | BRZ | `0xF82C4B7EaFEA0352555aEd0e64127baE29fE04ab` |
 | EURC | `0x3559C11Bd82B35A216efD5C9dbc22C68BC8157a9` |
@@ -108,29 +108,26 @@ Cada aposta é uma batalha tática onde os jogadores usam **cartas NFT exclusiva
 | FANTOKEN TEST | `0x0703a1299d322C79a2e338B928172961c6a81569` |
 | FANATIQUE | `0x72bb99Daad0Eb0d96ccea323f39eAEb995E449c0` |
 
-## 🚀 Como começar
+## 🚀 Getting Started
 
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone git@github.com:RaeII/fanatique.git
 
-
-# Entre na pasta do frontend
+# Enter the frontend folder
 cd fanatique/frontend
 yarn install
-# Inicie o ambiente de desenvolvimento
+# Start the development environment
 yarn dev
 
-# Instale as dependências
+# Install dependencies
 cd fanatique/backend
 yarn install
-# Inicie o ambiente de desenvolvimento
+# Start the development environment
 yarn dev
-
-
 ```
 ---
 
-<div>
-  <p>🏆 Stake To Play 🏆</p>
+<div align="center">
+  <b>🏆 Stake To Play 🏆</b>
 </div>
