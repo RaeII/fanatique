@@ -102,11 +102,12 @@ Each bet is a tactical battle where players use **exclusive NFT cards** with uni
 
 | Contract | Address |
 |----------|----------|
+| FANATIQUE | `0x72bb99Daad0Eb0d96ccea323f39eAEb995E449c0` |
+| FANTOKEN TEST | `0x0703a1299d322C79a2e338B928172961c6a81569` |
 | BRZ | `0xF82C4B7EaFEA0352555aEd0e64127baE29fE04ab` |
 | EURC | `0x3559C11Bd82B35A216efD5C9dbc22C68BC8157a9` |
 | USDC | `0x8205ebfb281bF69DBD154a5A2B2FA2BE8f5929cC` |
-| FANTOKEN TEST | `0x0703a1299d322C79a2e338B928172961c6a81569` |
-| FANATIQUE | `0x72bb99Daad0Eb0d96ccea323f39eAEb995E449c0` |
+
 
 ## 🚀 Getting Started
 
