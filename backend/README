@@ -1,0 +1,14 @@
+---
+#DEPLOY
+export NODE_ENV=test && npx hardhat deploy --network chiliz_spicy --contract fantoken
+export NODE_ENV=test && npx hardhat deploy --network chiliz_spicy --contract fanatique
+export NODE_ENV=test && npx hardhat deploy --network chiliz_spicy --contract fanatique-cards
+
+#ESTIMATE GAS
+export NODE_ENV=development && npx hardhat estimateGas --network localhost --contract usdt
+
+#VERIFY 
+export NODE_ENV=test && npx hardhat verifyContracts --network mainnet 
+
+export NODE_ENV=test && npx hardhat deploy --network chiliz_spicy --contract erc20
+

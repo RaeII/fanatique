@@ -1,0 +1,12 @@
+build
+logs
+node_modules
+yarn-error.log
+.git
+README.md
+.gitignore
+.gitlab-ci.yml
+.yarn
+.yarnrc.yml
+.editorconfig
+.vscode
