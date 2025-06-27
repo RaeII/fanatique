@@ -98,7 +98,7 @@ Each bet is a tactical battle where players use **exclusive NFT cards** with uni
 - **Event Indexing** for efficient queries
 - **Proxy Patterns** for contract upgrades
 
-## 🔗 Contracts (Mainnet)
+## 🔗 Contracts (Testnet)
 
 | Contract | Address |
 |----------|----------|
